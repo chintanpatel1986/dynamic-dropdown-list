@@ -133,7 +133,7 @@
             </table>
         </c:if>
     </div>
-    <div class="mt-5">
+    <div class="container mt-5">
         <a href="index.jsp" class="link-success fs-5">Back To Home</a>
     </div>
 </div>

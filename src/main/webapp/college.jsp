@@ -55,6 +55,9 @@
             </table>
         </c:if>
     </div>
+    <div class="container mt-5">
+        <a href="index.jsp" class="link-success fs-5">Back To Home</a>
+    </div>
 </div>
 </body>
 </html>

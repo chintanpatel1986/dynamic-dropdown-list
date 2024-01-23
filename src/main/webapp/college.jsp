@@ -23,7 +23,7 @@
     <form action="CollegeController" method="post" class="row g-3">
       <input type="hidden" name="collegeId" value="${college.collegeId}">
       <div class="col-12 mt-5">
-        <label class="form-label fw-bold">Collage</label>˜
+        <label class="form-label fw-bold">Collage</label>
         <input type="text" name="collegeName" class="form-control" value="${college.collegeName}">
       </div>
       <div class="col-12 d-grid gap-2">

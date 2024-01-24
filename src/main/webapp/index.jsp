@@ -16,6 +16,8 @@
 <body>
 <div class="container mt-5">
     <a href="CollegeController?action=insert" class="link-primary fs-4">College</a>
+    &nbsp;|&nbsp;
+    <a href="StudentController?action=insert" class="link-primary fs-4">Student</a>
 </div>
 </body>
 </html>

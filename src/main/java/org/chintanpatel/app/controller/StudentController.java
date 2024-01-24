@@ -65,7 +65,7 @@ public class StudentController extends HttpServlet {
         student.setMobile(Long.parseLong(req.getParameter("mobile")));
         Date birthDate = null;
         try {
-            birthDate = new SimpleDateFormat("yyyy/MM/dd").parse(req.getParameter("birthDate"));
+            birthDate = new SimpleDateFormat("yyyy-MM-dd").parse(req.getParameter("birthDate"));
         } catch (ParseException e) {
             e.printStackTrace();
         }

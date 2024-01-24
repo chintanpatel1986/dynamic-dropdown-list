@@ -12,11 +12,13 @@ public class Student {
     private Date birthDate;
     private String userName;
     private String password;
+    private int collegeId;
+    private String collegeName;
 
     public Student() {
     }
 
-    public Student(int studentId, String firstName, String lastName, String email, long mobile, Date birthDate, String userName, String password) {
+    public Student(int studentId, String firstName, String lastName, String email, long mobile, Date birthDate, String userName, String password, int collegeId, String collegeName) {
         this.studentId = studentId;
         this.firstName = firstName;
         this.lastName = lastName;
@@ -25,6 +27,8 @@ public class Student {
         this.birthDate = birthDate;
         this.userName = userName;
         this.password = password;
+        this.collegeId = collegeId;
+        this.collegeName = collegeName;
     }
 
     public int getStudentId() {
@@ -89,5 +93,21 @@ public class Student {
 
     public void setPassword(String password) {
         this.password = password;
+    }
+
+    public int getCollegeId() {
+        return collegeId;
+    }
+
+    public void setCollegeId(int collegeId) {
+        this.collegeId = collegeId;
+    }
+
+    public String getCollegeName() {
+        return collegeName;
+    }
+
+    public void setCollegeName(String collegeName) {
+        this.collegeName = collegeName;
     }
 }
